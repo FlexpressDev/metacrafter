@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appconfig>
+  <group name="Settings">
+    <property name="Rules" type="text" multiline="true" description="Paste your mapping rules here."/>
+    <property name="Separator" type="text" default="|" description="Optional separator for multi-field mappings."/>
+  </group>
+</appconfig>

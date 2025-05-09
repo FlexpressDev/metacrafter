@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>MetaCrafter</title></head>
+<body>
+<h1>MetaCrafter</h1>
+<p><strong>Transforms private data fields using rule-based logic.</strong></p>
+<pre>
+*** fpCountry = fpFriendlyCountry
+EXACT BE = Belgium
+REGEX ^D.*$ = Deutschland
+NUMERIC >100 = Big
+DEFAULT = Unknown
+</pre>
+<p>Enable Debug Mode by renaming this flow element to start with <code>debug_</code>.</p>
+</body></html>
